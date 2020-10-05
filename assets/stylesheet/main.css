@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*====================================
+grid
+====================================*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    position: static;
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg);
+    margin: 0, auto;
+    padding: 50px, 50px, 50px, 50px;
+    width: 1200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.wrapper {
+    position: sticky;
+    width: 700px;
+    
+    margin-left: 300px;
+    margin-top: 50px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+
+/*====================================
+columns
+====================================*/
+
+.col-1-2 {
+    position: relative;
+	display: inline-block;
+    width: 310px;
+    margin-right: 30px;
+	text-align: center;
+    vertical-align: top;
+    left: 15px;
+    overflow: hidden;
+}
+
+
+/*====================================
+buttons
+====================================*/
+
+
+button {
+    position: relative;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(63, 27, 44);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-new {
+    position: static;
+    margin-left: 250px;
+    margin-right: 250px;
+    overflow: hidden;
+}
+
+.btn-roll {
+    position: static;
+    margin-left: 250px;
+    margin-right: 250px;
+    overflow: hidden;
+    padding: 0;
+    
+}
+
+.btn-hold {
+    position: static;
+    margin-left: 250px;
+    margin-right: 250px;
+    overflow: hidden;
+    padding: 0;
+    
+}
+
+button:hover {
+    position: static;
+    width: 150px;
+    background-color: transparent;
+    font-size: 22px;
+    color: rgb(23, 23, 70);
+    border: transparent;
+    overflow: hidden;
+    align-content: center;
+}
+
+
+/*====================================
+general
+====================================*/
+
+h1 {
+    position: static;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    
+    margin-top: 27px;
+    overflow: hidden;
+}
+
+h2 {
+    position: static;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: #3b0920;
+    margin-top: 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+h3 {
+    position: static;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: #a1c3d1;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+h4 {
+    position: static;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #a1c3d1;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.currentscore {
+    position: static;
+    background-color: rgb(111, 61, 128);
+    color: #fff;
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 53px;
+    text-align: center;
+    border-radius: 150px;
+    overflow: hidden;
+    margin-bottom: 90px
+}
+
+.image {
+    position: relative;
+    bottom: 250px;
+    left: 320px;
+    overflow: hidden;
+    border: 3px rgb(211, 35, 35) solid;
+}
+
+.downwrap{
+    border: thick solid thistle;
+   
+}
+
+.active{
+    background-color: whitesmoke;
+    background-repeat: repeat-y;
+    margin-right: 30px;
+}
+
+.playername{
+    color: rgb(230, 134, 158);
+}
+
+.active .playername{
+    color: #7bb6cf;
+}
+
+.player-1-panel{}
+.player-2-panel{}
